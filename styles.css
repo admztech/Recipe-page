@@ -1,0 +1,144 @@
+:root {
+  --Nutmeg: hsl(14, 45%, 36%);
+
+  --Dark_Raspberry: hsl(332, 51%, 32%);
+
+  --White: hsl(0, 0%, 100%);
+
+  --Rose_White: hsl(330, 100%, 98%);
+
+  --Eggshell: hsl(30, 54%, 90%);
+
+  --Light_Grey: hsl(30, 18%, 87%);
+
+  --Wenge_Brown: hsl(30, 10%, 34%);
+
+  --Dark_Charcoal: hsl(24, 5%, 18%);
+
+  --serif: "Young Serif", serif;
+  --sans-serif: "Outfit", sans-serif;
+  --font_normal: 400;
+  --font_semiBold: 600;
+  --font_bold: 700;
+}
+
+html {
+  box-sizing: border-box;
+}
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+  padding: 0;
+  margin: 0;
+}
+body {
+  font-family: var(--sans-serif);
+  background-color: var(--Eggshell);
+  display: grid;
+  place-items: center;
+  min-height: 100vh;
+  font-size: 1rem;
+  color: var(--Wenge_Brown);
+}
+
+main {
+  max-width: 46rem;
+  background-color: var(--White);
+  border-radius: 1.25em;
+  display: grid;
+  gap: 2em;
+  padding: 2em;
+}
+.content-wrapper {
+  display: grid;
+  gap: 2em;
+}
+ol,
+ul {
+  padding: 0 1.5rem;
+  margin: 0;
+}
+img {
+  display: block;
+  width: 100%;
+  border-radius: 0.625em;
+}
+p {
+  line-height: 1.5;
+}
+/* text-styling*/
+span {
+  font-weight: var(--font_bold);
+}
+.main-heading,
+.secondary-heading {
+  font-family: var(--serif);
+}
+.main-heading {
+  color: var(--Dark_Charcoal);
+  margin-bottom: 1rem;
+}
+.secondary-heading,
+.Calories-wight {
+  color: var(--Nutmeg);
+}
+.preparaion-heading {
+  color: var(--Dark_Raspberry);
+}
+/*layout styling*/
+.preparation {
+  background-color: var(--Rose_White);
+  padding: 2em;
+  border-radius: 0.625em;
+}
+ul,
+ol,
+.nutrition {
+  display: grid;
+  gap: 1em;
+  margin-top: 1.25em;
+  display: grid;
+  gap: 1em;
+}
+li {
+  padding-left: 1.5em;
+}
+.preparation-list li::marker {
+  color: var(--Dark_Raspberry);
+}
+.border-style {
+  padding-bottom: 2.5em;
+  border-bottom: 1px solid var(--Light_Grey);
+}
+.ingredients-list li::marker,
+.instructions-list li::marker {
+  color: var(--Nutmeg);
+}
+
+.instructions-list li::marker {
+  font-weight: var(--font_bold);
+}
+table {
+  border-collapse: collapse;
+}
+td {
+  padding: 1rem;
+}
+tr:not(:last-child) {
+  border-bottom: 1px solid var(--Light_Grey);
+}
+/*mobile*/
+@media (max-width: 750px) {
+  main {
+    border-radius: unset;
+    padding: 0;
+  }
+  img {
+    width: 100%;
+    border-radius: 0;
+  }
+  .content-wrapper {
+    padding: 2em;
+  }
+}
