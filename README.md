@@ -8,12 +8,11 @@ This is a solution to the [Social links profile challenge on Frontend Mentor](ht
 
 - [Solution]()
 - [Live]()
-
-Thanks for checking out this front-end coding challenge.
+<hr>
 
 ## About The Project
 
-In this challenge, build the Food recipe page for web and mobile screen.That project is not difficult.
+In this challenge, build the Food recipe page for web and mobile screens. 
 
 ### Built with
 
@@ -21,11 +20,11 @@ In this challenge, build the Food recipe page for web and mobile screen.That pro
 - CSS custom properties
 - Flexbox
 - CSS Grid
-- web-first workflo
+- web-first workflow
 
 ### What I learned
 
-This project helped improve my understanding of How CSS flex-box is used for layout alignment and responsiveness.
+That challenge is easy, not hard. This project helped improve my understanding of How CSS flex-box is used for layout alignment and responsiveness.
 
 ## Author
 
