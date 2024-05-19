@@ -6,8 +6,8 @@ This is a solution to the [Social links profile challenge on Frontend Mentor](ht
 
 ### Links
 
-- [Solution]()
-- [Live]()
+- [Solution](https://www.frontendmentor.io/solutions/recipe-page-8BNKj_omXH)
+- [Live](https://admztech.github.io/Recipe-page/)
 <hr>
 
 ## About The Project
